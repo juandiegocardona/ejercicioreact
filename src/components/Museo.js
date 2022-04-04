@@ -1,5 +1,5 @@
 import './Museo.css';
-const Museum = (prop) => {
+const Museo = (prop) => {
   return (
     <div className="col-12 col-md-3 mb-3 d-flex  justify-content-center">
       <div className="card menuItems text-center" onClick={() => prop.onRedirect(prop.museum)}>
@@ -14,4 +14,4 @@ const Museum = (prop) => {
     </div>
   );
 };
-export default Museum;
+export default Museo;

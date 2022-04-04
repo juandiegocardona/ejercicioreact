@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Obra from './Obra';
 import './Museo';
 
-const museumDetail = (prop) => {
+const detalleMuseo = (prop) => {
   console.log(prop);
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [obras] = useState(prop.selectedMuseum);
@@ -14,4 +14,4 @@ const museumDetail = (prop) => {
     </div>
   );
 };
-export default museumDetail;
+export default detalleMuseo;
