@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Museo from './Museo';
-const Museums = (prop) => {
+const Museos = (prop) => {
   const [museums, setMuseums] = useState([]);
 
   useEffect(() => {
@@ -21,4 +21,4 @@ const Museums = (prop) => {
   );
 };
 
-export default Museums;
+export default Museos;
